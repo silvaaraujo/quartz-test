@@ -30,6 +30,9 @@ public class CronTriggerExample {
 			.withIdentity("simpleJob", "grupo1")
 			.build();
 		
+		/* Cria a trigger responsavel por executar o job, aqui a diferenca eh que ele usa uma expressao CRON que é definida da seguinte maneira: */
+		/* SEGUNDOS MINUTOS HORAS DIA_DO_MES MES DIA_DA_SEMANA ANO */
+		/* O separador da expressao eh o espaco em branco */
 		Trigger trigger = TriggerBuilder
 			.newTrigger()
 			.withIdentity("cronTrigger", "group1")
