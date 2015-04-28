@@ -2,7 +2,7 @@
 Projeto simples para testes sobre o framework de scheduler Quartz
 <br />
 
-#Documentação oficial
+#Documentação e/ou tutorial oficial:
 http://quartz-scheduler.org/documentation/quartz-2.2.x/quick-start
 <br />
 
