@@ -62,7 +62,7 @@ public class CronTriggerExample {
 			
 		} catch (SchedulerException | InterruptedException e) {
 			//acima um recurso muito legal adicionado ao javase7 que eh a possibilidade 
-			//de em apenas um handler exception capturar diversos tipos de excessoes.
+			//de em apenas um handler exception capturar diversos tipos de exceptions.
 			//https://docs.oracle.com/javase/tutorial/essential/exceptions/catch.html
 			
 			e.printStackTrace();
